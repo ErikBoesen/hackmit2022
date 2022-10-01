@@ -16,7 +16,8 @@ class Classifier:
         data = {'Company': train_labels, 'Distance': distances}
         distance_data = pd.DataFrame(data)
         distance_data = distance_data.sort_values('Distance')
-        return distance_data.iloc[0:k]
+        result = distance_data.iloc[0:k]
+        return result['Company']
 
     def fast_distances(self, test_row, train_data):
         """An array of the distances between test_row and each row in train_rows.
