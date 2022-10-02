@@ -1,0 +1,38 @@
+Personality Quiz Layout: Student 
+
+What industry are you interested in? Select all that apply
+    Fintech
+    Edtech
+    Gametech
+    Healthtech
+    Food / Agriculture
+    Social / Entertainment
+    Security
+What are you interested in learning more about? Select all that apply
+    Machine Learning
+    Crypto 
+    Quant 
+    Blockchain 
+    Artificial Intelligence 
+What skills do you have experience with? Select all that apply
+    Frontend
+    Backend
+    Full Stack
+    Design
+    Product Management
+    Data
+What languages/frameworks do you have experience in? Select all that apply
+    Python
+    C
+    HTML / CSS
+    JavaScript
+    React
+    Flutter / Dart
+    C++
+    Java
+    Ruby / Ruby on Rails 
+Upload Resume (optional)
+Linkedin (optional)
+Github (optional) 
+What is your track? (optional) 
+What is your project about (50 characters max) (optional)

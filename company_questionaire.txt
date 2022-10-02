@@ -1,0 +1,45 @@
+Personality Quiz Layout: Company
+
+What is your industry?
+    Fintech
+    Edtech
+    Gametech
+    Healthtech
+    Food / Agriculture
+    Social / Entertainment
+    Security
+What is your company's specialty?  (Select all that apply)
+    Machine Learning
+    Crypto 
+    Quant 
+    Blockchain 
+    Artificial Intelligence 
+    Frontend
+    Backend
+    Full Stack
+    Design
+    Product Management
+    Data
+What type of students are you looking for for internships?
+    Experience in:
+    Frontend
+    Backend
+    Full Stack
+    Design
+    Product Management
+    Data
+
+    Skills in: 
+    Python
+    C
+    HTML / CSS
+    JavaScript
+    React
+    Flutter / Dart
+    C++
+    Java
+    Ruby / Ruby on Rails 
+Website Link
+Opportunity link (internships + full time jobs)
+Linkedin (optional)
+Github (optional) 
