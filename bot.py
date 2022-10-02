@@ -43,8 +43,6 @@ client.chat_postMessage(channel='#hackbot', text='React')
 client.chat_postMessage(channel='#hackbot', text='Flutter / Dart')
 client.chat_postMessage(channel='#hackbot', text='Ruby on Rails')
 
-client.chat_postMessage(channel='#hackbot', text='Hello World!')
-
 matty = Classifier('easy_sponsor.csv')
 
 df = pd.read_csv('easy_student.csv')
