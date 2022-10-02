@@ -5,12 +5,14 @@ class Classifier:
     def __init__(self, data_path: str):
         df = pd.read_csv(data_path)
         self.train_labels = df.iloc[:, 0]
-        self.train_data = df.iloc[:, 1:len(df.columns)]
+        self.train_data = df.iloc[:, 2:len(df.columns)]
+
+        print(self.train_data)
     
     def classify_row(self, row):
         return self.classify(row, self.train_data, self.train_labels, 5)
 
-    def classify(test_row, train_data, train_labels, k):
+    def classify(self, test_row, train_data, train_labels, k):
         """Return the k most common classes among k nearest neigbors to test_row."""
         distances = self.fast_distances(test_row, train_data)
         data = {'Company': train_labels, 'Distance': distances}
