@@ -13,11 +13,10 @@ client = WebClient(token=os.environ['SLACK_TOKEN'])
 
 client.chat_postMessage(channel='#hackbot', text='Hello World!')
 
+client.chat_postMessage(channel='#hackbot', text='Hello World!')
 
 matty = Classifier('easy_sponsor.csv')
 
-df = pd.read_csv('easy_sponsor.csv')
-student1 = df.iloc[1, 1:len(df.columns) - 5]
+df = pd.read_csv('easy_student.csv')
+student1 = df.iloc[1, 1:len(df.columns)]
 matches = matty.classify_row(student1)
-print(matches)
-
