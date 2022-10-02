@@ -12,7 +12,6 @@ class Classifier:
 
     def classify(self, test_row, train_data, train_labels, k):
         """Return the k most common classes among k nearest neigbors to test_row."""
-        print(test_row)
         distances = self.fast_distances(test_row, train_data)
         data = {'Company': train_labels, 'Distance': distances}
         distance_data = pd.DataFrame(data)
