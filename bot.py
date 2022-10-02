@@ -1,6 +1,7 @@
 from distutils.command.config import config
-import slack_sdk
 import os
+from slack_sdk import WebClient
+from slack_sdk.errors import SlackApiError
 from pathlib import Path
 from dotenv import load_dotenv
 from classify import Classifier
@@ -8,7 +9,7 @@ import pandas as pd
 
 load_dotenv()
 
-client = slack_sdk.WebClient(token=os.environ['SLACK_TOKEN'])
+client = WebClient(token=os.environ['SLACK_TOKEN'])
 
 client.chat_postMessage(channel='#bot-testing', text='Hello World!')
 
